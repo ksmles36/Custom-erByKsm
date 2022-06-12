@@ -13,6 +13,7 @@ public class AdminController {
 
     @GetMapping("/admin/adminDelivery")
     public String adminDelivery() {
+        System.out.println("메롱");
         return "admin/adminDelivery";
     }
 
